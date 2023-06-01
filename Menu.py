@@ -2,7 +2,6 @@ from tkinter import*
 import random
 import os
 
-
 def __information__():
        filename = 'Ems_info_FrontEnd.py'
        os.system(filename)
