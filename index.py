@@ -6,7 +6,6 @@ import random
 import time
 import datetime
 
-
 def main():
     root = Tk()
     app = Window_1(root)
@@ -78,7 +77,6 @@ class Window_1:
          self.text_Username.focus()
 
 
-        
     def Exit(self):
         self.Exit = tkinter.messagebox.askokcancel("Login System", "Confirm if you want to Exit")
         if self.Exit > 0:
@@ -106,4 +104,6 @@ class Window_2:
 
 if __name__ == '__main__':
     main()                                              
+    
+
     
