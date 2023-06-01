@@ -101,9 +101,7 @@ class Window_2:
         self.Frame = Frame(self.master, bg="lightpink")
         self.Frame.pack()
 
-
 if __name__ == '__main__':
     main()                                              
-    
 
     
